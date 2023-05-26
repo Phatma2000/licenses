@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <title>Licenses</title>
+ 
+  
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+  body{
+    background-color: #f3f7f6;
+  }
+ .container{
+  width: 860px;
+ }
+  thead{
+    height: 63px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+  }
+
+  tr{
+    text-align: center;
+    background-color: #fff;
+    font-weight: 500;
+  }
+  .up{
+    background-color: black;
+    font-size: 19px;
+  }
+
+  td{
+    border-left: none !important;
+    border-bottom: none !important;
+    border-top: none !important;
+  }
+
+  .filter_part{
+   display: flex;
+   justify-content: space-around;
+  }
+
+  .fa-filter{
+    align-self: center;
+    font-size: 21px;
+  }
+
+
+  button{
+    
+      background-color: #518CC3;
+      border: none;
+      border-radius: 16px;
+      padding: 1px 22px;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .buy_btn{
+      background: #56b3c2;
+    padding: 11px 27px;
+    border-radius: 27px;
+    font-weight: 700;
+    }    
+
+    .active{
+      color: #1DBC70;
+      font-size: 17px;
+    font-weight: 700;
+    }
+
+    .locked{
+      color: #BC1D1D;
+      font-size: 17px;
+    font-weight: 700;
+    }
+
+    .expiry{
+      color: #FFE600;
+      font-size: 17px;
+    font-weight: 700;
+    }
+    table {
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+tbody:before {
+   
+   
+    content:".";
+   
+ 
+}
+
+
+.table-bordered{
+  border: none;
+}
+
+</style>
+</head>
+
+<body>
+  <div class="container">
+    <table style="width: 100%; height: 200px;">
+      <thead>
+        <tr class="up">
+          <th style="width: 160px; height: 42px;">Product</th>
+          <th style="width: 132px;">Users</th>
+          <th style="width: 132px;">Expiry Date</th>
+          <th style="width: 132px;">Status</th>
+          <th style="width: 175px;">
+            <div class="filter_part">
+                <i  class="fa-solid fa-filter"></i>
+                <!-- <button class="buy_btn">BUY</button> -->
+            </div>
+          
+          </th>
+        </tr>
+      </thead>
+      <tbody class="table table-bordered">
+        <tr>
+          <td>Dialer</td>
+          <td>25</td>
+          <td>29.09.2024</td>
+          <td class="active">Active</td>
+          <td>
+            <button>Details</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Call Center</td>
+          <td>60</td>
+          <td>03.07.2024</td>
+          <td class="active">Active</td>
+          <td>
+            <button>Details</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Call Center</td>
+          <td>38</td>
+          <td>20.01.2026</td>
+          <td class="locked">Locked</td>
+          <td>
+            <button>
+              Details
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Dialer</td>
+          <td>20</td>
+          <td>16.03.2023</td>
+          <td class="expiry">Expiry</td>
+          <td>
+            <button>Details</button>
+          </td>
+        </tr>
+        <tr>
+          <td style="height: 50px;"></td>
+          <td style="height: 50px;"></td>
+          <td style="height: 50px;"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style="height: 50px;"></td>
+          <td style="height: 50px;"></td>
+          <td style="height: 50px;"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style="height: 50px;"></td>
+          <td style="height: 50px;"></td>
+          <td style="height: 50px;"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style="height: 50px;"></td>
+          <td style="height: 50px;"></td>
+          <td style="height: 50px;"></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+      
+    </table>
+  </div>
+  
+
+
+
+</body>
+
+</html>
